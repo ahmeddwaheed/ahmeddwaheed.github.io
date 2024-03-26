@@ -1243,7 +1243,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  /* .clients-item { min-width: calc(33.33% - 10px); } */
 
 
 
@@ -1737,6 +1737,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-item { min-width: calc(50% - 15px); }
+
+  /* clients */
+
+  .clients-item { min-width: calc(25% - 38px); }
+
+
 
   /**
    * PORTFOLIO

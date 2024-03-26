@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sport Agnostic Data Modeling</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="../assets/images/profile-pic-5.png" alt="Ahmed Waheed" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ahmed Waheed">Ahmed Waheed</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ahmeddwaheed.dev@gmail.com" class="contact-link">ahmeddwaheed.dev@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+201147063797" class="contact-link">+20 (11) 47063 797</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthdate</p>
+
+              <time datetime="1996-05-04">May 4, 1996</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cairo, Egypt</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ahmed-waheed/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/ahmeddwaheed" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ahmeddwaheed" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+    <section class="service">
+      <h1> Sport Agnostic Data Modeling </h1>
+  
+    <h2>
+      A summary Of Rethink Your Master Data (MDM)
+    </h2>
+  
+    <h3>
+      Introduction
+    </h3>
+    
+    <p>
+      Data is both our most valuable asset and our biggest ongoing challenge. As data grows volume, variety, and complexity, across applications, clouds, and soiled systems, traditional ways of working with data no longer work.
+      Increasingly, we are recognizing a need to harness all of our data, particularly our data around matches, players, lineups, teams, and more - often called master data. Pressing business priorities such as data transformations and aggregations require a holistic view of this <b>master data</b>.
+    </p>
+    
+    
+    ## A Big Data Problem
+    
+    Our organization have lots of data, but it's soiled and disconnected. Data is spread across:
+    
+    - Different teams (Info, 360, Live Collection, Offline Collection, Data Science, Task management, Video, IQ)
+    - Different sports (Soccer, American Football)
+    - Different platforms (Web browser, Desktop apps)
+    - Different formats (Database Schema, Object based - No SQL, Kafka Data Format - Avro)
+    - Different locations (cloud, on-prem)
+    
+    without a holistic view of our data, fragmentation, misunderstandings, inaccuracies and mistakes abound. Worse, disconnected data creates friction that makes querying more difficult. Aggregations between different teams is hard to be achievable.
+    
+    ## Modern Master Data Management
+    
+    Currently, having MDM systems requires centralized approaches. Such systems use a rigid schema of changes and additions and always in silos without any proper relations or linking.
+    
+    ## Why Graph Technology?
+    
+    Graph database technology offers a proven way to connect master data. It enables you to start right where you are with a use case that solves pressing problems and creates immediate business value. It gives you the flexibility to connect data across existing MDM systems or use the graph data store itself as an MDM system.
+    
+    Graph databases give you the advantage of understanding networks and connections of data. Unlike **relational databases** with grid-like structures that are not optimized for traversing relations. Despite the name 😕. It cannot handle connected information, so querying data relationships require numerous *SQL JOINS.*
+    
+    ## The Power of Graph Technology
+    
+    Graph queries are fast and easy to have natural connections hidden in data and scale perfectly with the ability of querying millions of records within very few seconds. Ten times faster than normal querying in a relational database.
+    
+    Advantages:
+    
+    - Support for any query.
+    - Lightning fast, no matter number of hops
+    - Simple query language (Cypher as for Neo4j)
+    
+    <a class="service-icon-box">
+      <img src="../assets//images//blogs/mdm/Screenshot_from_2021-05-27_16-39-33.png" alt="nothing" loading="lazy"/>
+    </a>
+  
+    An example showing the difference between querying a product by name using **SQL** & **Cypher:**
+    
+    <div class="service-icon-box">
+      <img src="../assets//images//blogs/mdm/Screenshot_from_2021-05-27_16-41-17.png" alt="nothing" loading="lazy"/>
+    </div>
+    
+    - Complements existing systems, no need to rip and replace anything.
+    - AI/ML on connected data using graph algorithms.
+    - Visualization (whiteboard style structure).
+    
+    ## So What Is Really Neo4j Introduces
+    
+    Neo4j is the most used graph database. Hundreds of companies like [Nasa, Airbnb, UBS, Convergys, Pitney Bowes].
+    
+    Relations between data are as important as the data itself. Graph databases can traverse huge chunks of data with their connections very effectively and fast.
+    
+    We maintain multiple data sources. In most cases, it's not feasible to move all data into a single data store to query relations. A Neo4j powerful solution can be layerd atop legacy systems and data stores, work across silos, provide a consistent source of information and reveal the relationships hidden.
+    
+     
+    <div class="service-icon-box">
+      <img src="../assets//images//blogs/mdm/Screenshot_from_2021-05-27_16-51-02.png" alt="nothing" loading="lazy"/>
+    </div>
+    
+    To see real examples of how big companies like **Airbnb** and **Nasa** approach different relational problems with Neo4j, please go check the official Neo4j documentation of this summary [here](https://neo4j.com/whitepapers/rethink-your-master-data-management-thanks/?aliId=eyJpIjoicUZUNDJnZlF1WHk4MnVtWCIsInQiOiI1XC9NZUMwTVwveTl1bkRxRWJrOUg0aUE9PSJ9) [8 mins read].
+    
+    ## How We Can Use MDM
+    
+    - We can use MDM pattern to connect multiple data sources together to track data changes and transformations across different formats/teams/relations.
+    - As for Info scope it can be used to gather all the information being scrapped from different sources such as [Soccerway, Transferamarket, Wikipedia, Local Sites, Media channels].
+    - It will make a good fit in the client gateway to list aggregates of every internal data source.
+      
+    </section>
+
+  </main>
+
+
+  <script src="../assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

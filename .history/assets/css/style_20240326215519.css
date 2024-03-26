@@ -748,7 +748,7 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  /* min-width: 50%; */
   scroll-snap-align: start;
 }
 
@@ -1737,6 +1737,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-item { min-width: calc(50% - 15px); }
+
+  /* clients */
+
+  .clients-item { min-width: calc(25% - 38px); }
+
+
 
   /**
    * PORTFOLIO

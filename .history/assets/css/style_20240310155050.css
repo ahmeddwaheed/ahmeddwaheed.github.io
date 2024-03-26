@@ -131,11 +131,6 @@ li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
-text, h1, h2, h3, h4, h5, h6, p { 
-  color: var(--light-gray);
-  line-height: 1.6;
-}
-
 button {
   font: inherit;
   background: none;
@@ -337,7 +332,8 @@ main {
 }
 
 .avatar-box {
-  border-radius: 24px;
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px;
 }
 
 .info-content .name {
@@ -1737,6 +1733,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-item { min-width: calc(50% - 15px); }
+
+  /* clients */
+
+  .clients-item { min-width: calc(25% - 38px); }
+
+
 
   /**
    * PORTFOLIO
